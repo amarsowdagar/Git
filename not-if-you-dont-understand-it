@@ -1,1 +1,41 @@
-Amar Sowdagar
+Last login: Wed Jan 18 22:26:20 on ttys000
+Amars-MacBook-Pro:~ amarsowdagar$ cd desktop
+Amars-MacBook-Pro:desktop amarsowdagar$ cd "readable code"
+Amars-MacBook-Pro:readable code amarsowdagar$ cd gitexercise/git
+Amars-MacBook-Pro:git amarsowdagar$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   not-if-you-dont-understand-it
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Amars-MacBook-Pro:git amarsowdagar$ git add "not-if-you-dont-understand-it"
+Amars-MacBook-Pro:git amarsowdagar$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   not-if-you-dont-understand-it
+
+Amars-MacBook-Pro:git amarsowdagar$ git commit -m "Added my name"
+[master 309fbaa] Added my name
+ 1 file changed, 1 insertion(+)
+Amars-MacBook-Pro:git amarsowdagar$ git rm
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+Amars-MacBook-Pro:git amarsowdagar$ git rm "not-if-you-dont-understand-it"
+rm 'not-if-you-dont-understand-it'
+Amars-MacBook-Pro:git amarsowdagar$ 
